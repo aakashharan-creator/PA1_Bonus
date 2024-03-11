@@ -18,7 +18,7 @@ The following functions have been defined in the abstract class and must be impl
 
 ```cpp
 virtual string convertToPostfix(string infixExpression) = 0;
-    virtual int evaluatePostfix(string postfixExpression)  = 0;
+virtual int evaluatePostfix(string postfixExpression)  = 0;
 ```
 
 ### Functionality Requirements 
