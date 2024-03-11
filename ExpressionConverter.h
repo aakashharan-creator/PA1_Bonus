@@ -11,7 +11,7 @@ public:
     ExpressionConverter() {};
 
     virtual string convertToPostfix(string infixExpression) = 0;
-    virtual int evaluatePostfix(string postfixExpression) = 0;
+    virtual int evaluatePostfix(string postfixExpression)  = 0;
 };
 
 #endif
