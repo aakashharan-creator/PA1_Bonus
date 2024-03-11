@@ -37,6 +37,9 @@ virtual int evaluatePostfix(string postfixExpression) = 0;
 ```
 * `evaluatePostfix` evaluates and returns the value of the given postfix expression. *You can assume you will receive a valid postfix expression.*
 
+  * `"1 2 3 * +" --> 7`
+  * `"1 2 + 3 *" --> 9`
+
 ## Testing and Validation
 
 In order to test and validate the running of your code there are a few commands to help you along with a `main.cpp` file if you would like to do your own testing. 
