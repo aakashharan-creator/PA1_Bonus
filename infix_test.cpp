@@ -19,7 +19,7 @@ protected:
 
 TEST_F(FinishedConverterTest, convertsSimpleValidInfix1)
 {
-    ASSERT_EQ(converter.convertToPostfix("1 + 2"), "1 2 +");
+    ASSERT_EQ(converter.convertToPostfix("1 + 3"), "1 3 +");
 }
 
 TEST_F(FinishedConverterTest, convertsSimpleValidInfix2)
