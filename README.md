@@ -28,8 +28,8 @@ virtual string convertToPostifx(string infixExpression) = 0;
 ```
 * `convertToPostfix` returns a string of the converted `infixExpression` to a postfix notation. *You can assume you will receive a valid infix expression. All operands and operators will be given space separated and must be output space separated*
 
-  * `"1 + 2 * 3" &#8594; "1 2 3 * +"`
-  * `"( 1 + 2 ) * 3" &#8594; "1 2 + 3 *"`
+  * `"1 + 2 * 3" --> "1 2 3 * +"`
+  * `"( 1 + 2 ) * 3" --> "1 2 + 3 *"`
 
 
 ```cpp
