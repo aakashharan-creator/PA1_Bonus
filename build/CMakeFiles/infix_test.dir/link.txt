@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/infix_test.dir/infix_test.cpp.o -o infix_test  lib/libgtest.a -lpthread 

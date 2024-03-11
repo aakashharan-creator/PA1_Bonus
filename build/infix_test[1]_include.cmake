@@ -1,0 +1,5 @@
+if(EXISTS "/com.docker.devenvironments.code/Test/PA1_Bonus/build/infix_test[1]_tests.cmake")
+  include("/com.docker.devenvironments.code/Test/PA1_Bonus/build/infix_test[1]_tests.cmake")
+else()
+  add_test(infix_test_NOT_BUILT infix_test_NOT_BUILT)
+endif()
