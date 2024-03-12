@@ -52,7 +52,6 @@ TEST_F(FinishedConverterTest, evaluatesTougherPostfix1)
     ASSERT_EQ(converter.evaluatePostfix("22 11 / 14 23 * +"), 324);
 }
 
-
 int main(int argc, char *argv[])
 {
     ::testing::InitGoogleTest(&argc, argv);

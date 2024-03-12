@@ -112,4 +112,8 @@ public:
 
         return vals.top();
     }
+
+    void test() {
+        throw SIGSEGV;
+    }
 };
